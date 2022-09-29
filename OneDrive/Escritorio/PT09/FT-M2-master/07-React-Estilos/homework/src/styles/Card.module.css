@@ -1,0 +1,56 @@
+  .card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius:10px;
+    border-color: hotpink;
+    width: 250px;
+    height: 350px;
+    align-content: center;
+  }
+  
+  .btn{
+   background-color: crimson; 
+   border-radius: 10px;
+   width: 25px;
+   margin: 5px;
+   align-self:flex-end;
+  }
+
+  .btnColor{
+    color: white;
+  }
+
+  .btn:hover{
+    color: red;
+    background-color: white;
+  }
+
+  .middleDiv{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .cardDifferent{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    border-radius:10px;
+    border-color: hotpink;
+    width: 250px;
+    height: 350px;
+    align-content: center;
+    background-color: darkturquoise;
+  }
+
+  .temperature{
+    margin: 5px;
+    justify-items: center;
+  }
+  
+  .imagen{
+    height: 150px;
+    width: 150px;
+  }
