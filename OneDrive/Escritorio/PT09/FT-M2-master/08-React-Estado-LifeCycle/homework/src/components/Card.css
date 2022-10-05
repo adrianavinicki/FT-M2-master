@@ -1,6 +1,8 @@
 .card {
   margin: 20px;
   width: 18rem;
+  border-width: thick;
+  border-color: rgb(255, 68, 47);
 }
 
 .card-title {
@@ -18,3 +20,13 @@
   margin-top: 0px !important;
   padding-top: 0px !important;
 }
+
+.row{
+  border-width: thick;
+  border-color: rgb(245, 47, 255);
+}
+
+.iconClima{
+  border-width: thick;
+  border-color: rgb(75, 47, 255);
+  }

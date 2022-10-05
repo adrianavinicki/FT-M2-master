@@ -1,0 +1,16 @@
+.container {
+    padding-right: 5px;
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: green;
+    color: rgb(213, 16, 16);
+}
+
+.btn:hover {
+    background-color: grey;
+    color: greenyellow;
+}
