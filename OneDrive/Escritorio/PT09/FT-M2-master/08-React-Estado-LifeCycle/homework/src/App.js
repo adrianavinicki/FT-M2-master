@@ -7,7 +7,7 @@ import Cards from './components/Cards.jsx';
 export default function App() {
   const [cities, setCities] = React.useState([]);//ok
 
-  const apikey = '4ae2636d8dfbdc3044bede63951a019b'; //'88bb5ff8717c978580c49f1ba2181a6b'//process.env.REACT_APP_APIKEY;
+  const apikey = '4ae2636d8dfbdc3044bede63951a019b';//process.env.REACT_APP_APIKEY;
 
 function onSearch(city) {
     fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apikey}&units=metric`)
