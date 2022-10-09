@@ -18,7 +18,9 @@ const store = createStore(counter);
 // El componente Provider es donde "vive" el store.
 ReactDOM.render(
   <Provider store={store}>
+    {/* <BrowserRouter>*/}
     <Counter />
+    {/* </BrowserRouter>*/}
   </Provider>,
   document.getElementById('root')
 );
